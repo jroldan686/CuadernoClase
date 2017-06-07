@@ -1,0 +1,21 @@
+<resources>
+    <string-array name="tipoFalta">
+        <item name="indefinida">Seleccione la falta</item>
+        <item name="injustificada">@string/injustificada</item>
+        <item name="justificada">@string/justificada</item>
+        <item name="retraso">@string/retraso</item>
+    </string-array>
+
+    <string-array name="trabajo">
+        <item name="indefinido">Seleccione el trabajo</item>
+        <item name="bueno">@string/bueno</item>
+        <item name="regular">@string/regular</item>
+        <item name="malo">@string/malo</item>
+    </string-array>
+
+    <string-array name="actitud">
+        <item name="indefinida">Seleccione la actitud</item>
+        <item name="positiva">@string/positiva</item>
+        <item name="negativa">@string/negativa</item>
+    </string-array>
+</resources>

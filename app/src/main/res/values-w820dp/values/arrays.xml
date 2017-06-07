@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="absence_type">
+        <item name="none">.</item>
+        <item name="non_justified">@string/non_justified</item>
+        <item name="justified">@string/justified</item>
+        <item name="late">@string/late</item>
+    </string-array>
+
+    <string-array name="work_quality">
+        <item name="none">.</item>
+        <item name="excellent">@string/excellent</item>
+        <item name="good">@string/good</item>
+        <item name="bad">@string/bad</item>
+    </string-array>
+
+    <string-array name="attitude">
+        <item name="none">.</item>
+        <item name="good">@string/good</item>
+        <item name="bad">@string/bad</item>
+    </string-array>
+</resources>

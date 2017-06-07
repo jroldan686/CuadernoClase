@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_margin="20dp"
+    android:orientation="vertical"
+    tools:context=".ActualizarAlumnoActivity">
+
+    <TextView
+        android:id="@+id/txvActualizarAlumnoNombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nombre" />
+
+    <EditText
+        android:id="@+id/edtActualizarAlumnoNombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Alumno Portada Alta"
+        android:textSize="18sp"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/txvActualizarAlumnoDireccion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/direccion" />
+
+    <EditText
+        android:id="@+id/edtActualizarAlumnoDireccion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calle Cómpeta, 31"
+        android:textSize="16sp"
+        android:inputType="textPostalAddress" />
+
+    <TextView
+        android:id="@+id/txvActualizarAlumnoCiudad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ciudad" />
+
+    <EditText
+        android:id="@+id/edtActualizarAlumnoCiudad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Málaga"
+        android:textSize="16sp"
+        android:inputType="text" />
+
+    <TextView
+        android:id="@+id/txvActualizarAlumnoCodigoPostal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/codigoPostal" />
+
+    <EditText
+        android:id="@+id/edtActualizarAlumnoCodigoPostal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="29007"
+        android:textSize="16sp"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/txvActualizarAlumnoTelefono"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/telefono" />
+
+    <EditText
+        android:id="@+id/edtActualizarAlumnoTelefono"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="951297929"
+        android:textSize="16sp"
+        android:inputType="phone" />
+
+    <TextView
+        android:id="@+id/txvActualizarAlumnoEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/email" />
+
+    <EditText
+        android:id="@+id/edtActualizarAlumnoEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="alumno@elsabernoocupalugar.es"
+        android:textSize="16sp"
+        android:inputType="textEmailAddress" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btnActualizar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/modificar" />
+    </LinearLayout>
+</LinearLayout>

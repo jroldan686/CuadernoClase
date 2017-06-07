@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name">Class book</string>
+
+    <string name="select_options">What do you want to do?</string>
+    <string name="option_1">Manage students</string>
+    <string name="option_2">Manage absences</string>
+
+    <string name="connecting">Connecting</string>
+    <string name="download_success">Successfully downloaded</string>
+    <string name="null_data">Null data</string>
+
+    <string name="absences">Absences</string>
+
+    <string name="student_list">Students list</string>
+    <string name="exclude_confirmation">Do you want to exclude %s?</string>
+    <string name="exclude">Exclude student</string>
+    <string name="exclude_error">Error excluding student</string>
+    <string name="exclude_successful">Student successfully excluded</string>
+
+    <string name="add_student">Add a student</string>
+    <string name="add_successful">Student successfully added</string>
+    <string name="add_error">Error adding student</string>
+    <string name="name">Name</string>
+    <string name="surname">Surname</string>
+    <string name="address">Address</string>
+    <string name="city">City</string>
+    <string name="phone">Phone</string>
+    <string name="postcode">Postcode</string>
+    <string name="email">Email</string>
+
+    <string name="add">Add</string>
+    <string name="save">Save</string>
+    <string name="send">Send</string>
+    <string name="modify">Update</string>
+
+    <string name="send_email">Send an email</string>
+    <string name="email_successful">Email successfully sent</string>
+    <string name="email_missing">Address and password can\'t be empty</string>
+    <string name="email_error">Error sending email</string>
+
+    <string name="modify_student">Update info</string>
+    <string name="update_successful">Info successfully updated</string>
+    <string name="update_error">Error updating info</string>
+
+    <string name="delete_student">Exclude student</string>
+
+    <string name="message">Message</string>
+    <string name="subject">Subject</string>
+    <string name="to">To</string>
+    <string name="password">Password</string>
+    <string name="from">From</string>
+    <string name="add_absence">Add absence</string>
+    <string name="type">Type</string>
+
+    <string name="non_justified">Not justified</string>
+    <string name="justified">Justified</string>
+    <string name="late">Late</string>
+
+    <string name="excellent">Excellent</string>
+    <string name="good">Good</string>
+    <string name="bad">Bad</string>
+    <string name="work_quality">Class work</string>
+    <string name="attitude">Attitude</string>
+    <string name="remarks">Remarks</string>
+
+</resources>
